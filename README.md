@@ -1,1 +1,1 @@
-# Welcome to NFT_Marketing_System Setting.
+# Welcome to NFT_Marketing_System
