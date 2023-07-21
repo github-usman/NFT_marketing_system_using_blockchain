@@ -385,6 +385,18 @@ body {
 }
 
 
+.logo_img_nft{
+  width: 43%;
+  border-radius: 8px;
+
+}
+
+.logo_text_nft{
+ margin-left: -30%;
+ color: white;
+ font-size: 150%;
+}
+
 
 
 
@@ -1214,4 +1226,41 @@ body {
 
   .discover .grid-list { grid-template-columns: repeat(4, 1fr); }
 
+}
+
+/* loginFailed */
+
+.login_failed{
+  text-align: center;
+  margin-top: 23%;
+  color: #e7da1e;
+}
+
+
+
+/* home main */
+
+.main_login_btn{
+  text-align: center;
+  margin-top: 1%;
+  margin-left: 45%;
+}
+
+/* .home_logo_nft{
+  margin-left: 20%;
+  margin-top: 20px;
+
+} */
+
+.notice_home{
+  text-align: center;
+  margin-top: 18%;
+  color: yellow;
+}
+
+.home_log_Shift{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
