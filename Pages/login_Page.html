@@ -10,17 +10,17 @@
 <body>
     <div class="box">
         <span class="borderLine"></span>
-        <form >
+        <form id="myForm" onsubmit="submitForm(event)" >
             <h2>Connect to Wallet</h2>
 
             <div class="inputBox">
-                <input type="text" required="required">
+                <input id="provider" type="text" required="required">
                 <span>Select a Provider</span>
                 <i></i>
             </div>
 
             <div class="inputBox">
-                <input type="text" required="required">
+                <input id="userid" type="text" required="required">
                 <span>UserID</span>
                 <i></i>
             </div>
@@ -29,7 +29,7 @@
                 select a provider
              -->
             <div class="inputBox">
-                <input type="password" required="required">
+                <input id="password" type="password" required="required">
                 <span>Password</span>
                 <i></i>
             </div>
@@ -40,7 +40,8 @@
             <input id="inputValue" >
 
             <div class="login_Page_button">
-                <a href="../index_home.html"  role="button" aria-pressed="true">Connect to Wallet<ion-icon name="wallet-outline"></ion-icon></a>
+                <button type="submit" value="Submit"> Connect to Wallet</button>
+                <!-- <a href="../index_home.html"  role="button" aria-pressed="true">Connect to Wallet<ion-icon name="wallet-outline"></ion-icon></a> -->
             </div>
             <!-- <img src="./logo_add.png" alt=""> -->
 
@@ -51,6 +52,7 @@
                 </tr>
               </table>
         </form>
+        <script src="./login_page.js"></script>
     </div>
 </body>
 </html>

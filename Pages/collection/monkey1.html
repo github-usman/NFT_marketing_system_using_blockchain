@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wallet Page Demo</title>
+  <link rel="stylesheet" href="../../assets/css/style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -102,8 +103,40 @@
      margin-left: 10px;
     }
     .title_heading{
-        margin-left: 355%;
+        margin-left: 165%;
     }
+    
+    .table_data{
+      padding: 10px;
+      background-color: #848b77;
+    }
+
+    .table_data td
+    {
+      padding: 15px;
+      background: #226992;
+
+    }
+    .table_data td p{
+      color: white;
+    }
+    .upper_pro{
+      margin-left: 2%;
+      text-align: left;
+      color: white;
+    }
+    .upper_pro span{
+      color: yellow;
+      font-weight: bold;
+    }
+    .make_offer{
+      margin-top: 20px;
+      margin-left: 70%;
+      color: black;
+      background-color: yellow;
+    }
+    
+
 
 
     /* Additional styling for buttons or other elements can be added here */
@@ -111,6 +144,7 @@
 </head>
 
 <body>
+
   <header>
 
     <a style="text-decoration: none; color: white;" href="../../index_home.html">
@@ -121,7 +155,7 @@
               <td><img class="logo_img_nft "src="../logo_add.png" width="80" height="128" loading="lazy" alt="Metalink home"></td>
               <td><h1 class="logo_text_nft">NFTSystem</h1></td>
             
-              <td><div class="title_heading"><h1>Your&nbsp;Profile</h1></div></td>
+              <td><div class="title_heading"><h1>Genuine&nbsp;Undead&nbsp;#3902</h1></div></td>
             </div>
             </tr> 
         
@@ -133,28 +167,57 @@
 
   <div class="card_profile">
   <main>
-    <div class="profile">
-      <img src="../../assets/images/profile.jpg" alt="Profile Picture">
-      <h2>Usman Ali Ansari</h2>
-    </div>
-    <div class="wallet-balance">
-      <p>Your Wallet Balance: <span class="bal">ETH 00.00</span></p>
-    </div>
-    <div class="wallet-ID">
-        <table>
-            <tr>
-                <td><h3>ID :</h3</td>
-                <td><p>0x68ca0C62408B1D1F9C90f7325b52FA83185F27FD</p></td>
-            </tr>
-        </table>
-    </div>
-   <div>
-    <h3>
-        You have not Purchase any NFT please go and explore
-    </h3>
-   </div>
-  </main>
+    <table>
+      <tr>
+        <td><img src="../../assets/images/showcase-8.gif" alt="Genuine Undead #392">
+          <h1 style="text-align: center;">Genuine Undead #3902</h1></td>
+          <td><p class="upper_pro">
+            Unique items 
+            <span>2</span>
+              ·  
+            Total items 
+            <span>4</span>
+              ·  
+            Created 
+            <span>Mar 2023</span>
+              ·  
+            Creator earnings 
+            <span>0%</span>
+              ·  
+            Chain 
+            Ethereum
+            Welcome to the home of MONKEY on NFTSystem. Discover the best items in this collection.</p>
+            <br>
+            <table cellspacing="15" border="1" class="table_data">
+              <tr>
+                <td> <p>0.0534</p>
+                     <h3>ETH</h3>
+                  </td>
+                  <td> <p>total volume</p>
+                    <h3>---</h3>
+                 </td>
+                 <td> <p>floor price</p>
+                  <h3>---</h3>
+               </td>
+               <td> <p> best offer</p>
+                <h3>0%</h3>
+                <td> <p> listed</p>
+                  <h3>2</h3>
+                  <td> <p> owners</p>
+                    <h3>50%</h3>
+                    <td><p>unique Owners</p>
+                    <h3>---</h3></td>
+             </td>
+              </tr>
+            </table>
 
+          </td>
+       </tr>
+    </table>
+    
+  </main>
+  
+  <button class="btn btn-primary make_offer">Make an Offer</button>
  
    
 </div>
